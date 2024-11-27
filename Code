@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Floor Game Show</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>The Floor Game Show</h1>
+      <p>Get ready for the ultimate test of knowledge, agility, and strategy!</p>
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h2>About The Floor</h2>
+    <p>Welcome to *The Floor*! A game show where contestants face a shifting, unpredictable game board while testing their knowledge and reflexes. In each round, the floor beneath them may disappear, and they have to react fast!</p>
+    <p>Will you stay on the floor? Or will you fall into the unknown? The stakes are high, and the excitement is even higher!</p>
+  </section>
+
+  <section id="category-picker" class="container">
+    <h2>Random Category Picker</h2>
+    <p>Choose a random category for your trivia challenge! Click the button to spin the wheel:</p>
+    <button id="pickCategoryBtn">Pick a Random Category</button>
+    <p id="categoryResult">Press the button to choose a category!</p>
+  </section>
+
+  <section id="game-rules" class="container">
+    <h2>How the Game Works</h2>
+    <ul>
+      <li>Contestants stand on a large, interactive floor with different sections that can change based on the game’s progress.</li>
+      <li>Trivia Questions & Challenges: Answer correctly, and you can stay on a safe spot; get it wrong, and you might fall!</li>
+      <li>The longer you last, the harder it gets. Will you outlast your opponents?</li>
+    </ul>
+  </section>
+
+  <section id="footer" class="container">
+    <footer>
+      <p>&copy; 2024 The Floor Game Show | Fun for all ages</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
